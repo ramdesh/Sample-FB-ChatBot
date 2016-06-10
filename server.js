@@ -7,7 +7,7 @@ var request = require('request');
 app.use(bodyParser.json());
 
 // replace wth your FB verification token
-var token = "<YOUR_VERIFY_TOKEN>";
+var token = "EAAFsGjeIy30BALl0e46vPZBB5QfZAC1CEkbQVRbJgJaeT9ZBUlAZAge0PPVp0LxM7uJ4mxQ4FJhMPxaRsXKekIk9YooGIyhm87lfZCpHiKkhZCdZBMVmCSaRojwiOOfFo4UZAaCEv68PbWtrZA1lRb8wcZBQrwXbgcyVpFted5LnGIswZDZD";
 
 // GET /webhook will validate the request token and grant access to the FB application
 app.get('/webhook/', function (req, res) {
